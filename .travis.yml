@@ -6,6 +6,7 @@ install:
 # script:
 #- molecule --debug test
 script:
+- env
 - molecule create
 - molecule converge
 - molecule verify
