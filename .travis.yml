@@ -24,3 +24,5 @@ before_install:
 - tar xvf secrets.tar
 - mv gce_travis /home/travis/.ssh/
 - chmod 0600 /home/travis/.ssh/gce_travis
+notifications:
+  slack: devops-team-otus:TJXkVTcoL99B6Dp0IW8vAdBC
